@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+
+}
+
+.box{
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    gap: 1rem;
+}
+
+.box:first-child{
+    background-color: red;
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+
+    display:grid;
+    place-content: center;
+}
+
+.box:nth-child(2){
+    background-color: blue;
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
