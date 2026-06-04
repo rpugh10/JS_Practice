@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(74, 47, 26);
+}
+
 
 header{
     display: flex;
@@ -18,9 +22,13 @@ header nav ul{
     gap: 1rem;
 }
 
+header h1{
+    color: rgb(75, 76, 76);
+}
+
 header nav ul li a{
     text-decoration: none;
-    color: black;
+    color: rgb(214, 210, 210);
     font-weight: bold;
 }
 
@@ -52,7 +60,7 @@ header nav ul li a{
 
 .about_content h1{
     font-size: 3rem;
-    color: rgb(14, 14, 14);
+    color: rgb(251, 249, 249);
 }
 .highlight{
     color: rgba(161, 151, 151, 0.5);
@@ -88,4 +96,92 @@ header nav ul li a{
     cursor: pointer;
  }
 
+ .projects_section{
+    padding: 20px;
+    background-color: rgb(124, 62, 14);
+ }
+
+ .projects_section h2{
+    color: rgb(103, 105, 106);
+ }
+
+ .projects_section p{
+    color: rgb(125, 122, 122);
+ }
+
+ .projects_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 20px;
+ }
+
+ .project1{
+    background-color: rgb(218, 160, 109);
+    color: rgb(211, 206, 206);
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+ }
+
+ .project1 p{
+    color: rgb(201, 194, 194);
+ }
+
+ .project1 button{
+    padding: 10px 20px;
+    background-color: rgb(24, 201, 24);
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+
+ .project2{
+    background-color: rgb(110, 38, 14);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+ }
+
+ .project2 button{
+    padding: 10px 20px;
+    background-color: rgb(34, 157, 210);
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+
+ .project3{
+    background-color: rgb(218, 160, 109);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+ }
+
+ .project3 button{
+    padding: 10px 20px;
+    background-color: rgb(34, 157, 210);
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+
+ footer{
+    text-align: start;
+    padding: 20px;
+    background-color: rgb(34, 157, 210);
+    color: white;
+    font-weight: bold;
+ }
 
