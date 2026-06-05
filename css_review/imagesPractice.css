@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+    background-color: #f0f0f0;
+    background-image: url('../css_review/images/wood.png');
+
+}
+ 
+.hero{
+    border-bottom: 5px double black;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+
+    background-color: rgba(0, 0, 0, 0.273);
+
+    
+}
+
+/* Utility Classes */
+.nowrap{
+    white-space: nowrap;
+}
+
+.offscreen{
+    position: absolute;
+    left: -9999px;
+}
+
+h1{
+    font-size: 500%;
+}
+
+body{
+    min-height: 100vh;
+
+    background-color: #f0f0f0;
+
+    background-image: linear-gradient(black, rgb(137, 133, 133), white);
+}
+
+.profile-picture{
+    width: 35%;
+}
+
+.profile-picture img{
+    width: 100%;
+    height: auto;
+    min-width: 200px;
+    border: 5px double black;
+    border-radius: 50%;
+}
+
+.h1{
+    color: aliceblue;
+    text-shadow: 2px 2px 5px black;
+}
