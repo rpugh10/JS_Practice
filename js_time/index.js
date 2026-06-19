@@ -88,3 +88,22 @@
 ? console.log(x, typeof x); 
 */
 
+
+/* 
+ ! Counter Program
+ */
+ let count = 0;
+ let result = 0;
+ document.getElementById('increaseBtn').onclick = function() {
+    count++;
+    document.getElementById('countLabel').textContent = count;
+};
+
+document.getElementById('decreaseBtn').onclick = function(){
+
+    count = document.getElementById('countLabel').textContent -= 1;
+}
+
+document.getElementById('resetBtn').onclick = function(){
+    document.getElementById('countLabel').textContent = 0;
+}
