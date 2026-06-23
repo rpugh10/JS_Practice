@@ -117,10 +117,27 @@
 *Math.floor rounds down and Math.random() * gives us a random # between 0-6 exclusive. To include 6 we +1 to get 1-7 exclusive
  */
 
-document.getElementById('randomBtn').onclick = function(){
-    let randomNum = Math.floor(Math.random() * 100000);
+/* 
+ ? document.getElementById('randomBtn').onclick = function(){
+ ? let randomNum = Math.floor(Math.random() * 100000);
+ ?document.getElementById('countLabel').textContent = randomNum;
+} */
 
-    document.getElementById('countLabel').textContent = randomNum;
-}
+  /*
+   ! if Statement
+ */
 
+  /*  if(true){
+        console.log('This is true');
+   }
+   else{
+    console.log('This is false');
+   }
 
+ */
+
+   /* 
+   ! Checked Property 
+   */
+
+   
