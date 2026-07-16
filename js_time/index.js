@@ -137,7 +137,29 @@
  */
 
    /* 
-   ! Checked Property 
+   ! String Methods
    */
+
+   /* let username = 'Ryan';
+   username.charAt(0); // Returns 'R'
+   username.length; // Returns 4
+   username.indexOf('y'); // Returns 2
+   username.lastIndexOf('a'); // Returns 1
+   username.trim(); // Removes whitespace from both ends
+   username.toUpperCase(); // Returns 'RYAN'
+   username.toLowerCase(); // Returns 'ryan'
+   username.repeat(3); // Returns 'RyanRyanRyan'
+   let result = username.startsWith('R'); // Returns true
+   let endsWith = username.endsWith('n'); // Returns true
+
+   let phoneNumber = '123-456-7890';
+   phoneNumber.replace('-', ''); // Returns '1234567890'
+   phoneNumber.split('-'); // Returns ['123', '456', '7890']
+   phoneNumber.slice(0, 3); // Returns '123'
+   phoneNumber.padStart(12, '0'); // Returns '000123-456-7890'
+   phoneNumber.padEnd(12, '0'); // Returns '123-456-789000' 
+   // */
+
+
 
    
